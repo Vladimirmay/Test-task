@@ -52,7 +52,8 @@ function App() {
     setCurrentPage((prevPage) => prevPage + 1);
     setFetching(true);
   };
-
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  //@ts-ignore
   const handleScroll = (e) => {
     if (
       e.target.documentElement.scrollHeight -
